@@ -1,0 +1,13 @@
+
+# Agentic AI configuration (placeholders)
+project_name: BreastCancer-Agentic-AI
+version: 1.0.0
+agents:
+  - DataAgent
+  - DiagnosisAgent
+  - ReportAgent
+memory:
+  type: in_memory # swap with vector store later
+tools:
+  - tools.basic.load_patient_record
+  - tools.basic.calc_metrics
